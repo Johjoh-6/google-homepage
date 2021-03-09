@@ -1,0 +1,43 @@
+body, input, button{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+a, button {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    margin: 0;
+    padding: 6px 6px;
+    height: 60px;   
+}
+#nav-bar-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-bar-top>li {
+    padding-left: 15px;
+}
+svg {
+    height: 24px;
+    width: 24px;
+    color: #5f6368;
+    opacity: 1;
+}
+#picture-profil {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+#picture-profil:hover {
+    background-color: ;
+}
