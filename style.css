@@ -39,16 +39,50 @@ header {
 #nav-bar-top>li {
     padding-left: 15px;
 }
+#menu-icons {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 svg {
     height: 24px;
     width: 24px;
     color: #5f6368;
     opacity: 1;
 }
+#menu-icons:hover {
+    background-color: rgba(60,64,67,0.08);
+    z-index: 1;  
+}
+#profil {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#profil:hover {
+    background-color: rgba(60,64,67,0.08);    
+}
+#profil a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 #picture-profil {
     height: 32px;
     width: 32px;
     border-radius: 50%;
+    z-index: 1;
 }
 
 /* main */
